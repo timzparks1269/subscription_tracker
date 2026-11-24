@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorded!</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; text-align: center; padding: 60px 20px; background: #f5f7fa; }
+        .card { background: white; max-width: 340px; margin: auto; padding: 28px; border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Saved {{ name }}!</h2>
+        <p>Added to your subscription tracker.</p>
+        <a href="/">Open Dashboard</a>
+    </div>
+    <script>setTimeout(() => { window.close(); }, 1500);</script>
+</body>
+</html>

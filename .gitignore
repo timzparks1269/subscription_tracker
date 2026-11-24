@@ -1,0 +1,4 @@
+pycache__/
+*.db
+subscriptions.json
+.DS_Store
